@@ -5,8 +5,7 @@
 ## WIKI
 
 * Game Idea and docs: [WIKI](https://github.com/daaning/GT2roguelike/wiki/Spielidee:-Electro-Dungeon)
-* Gameplay videos: [WIKI](https://github.com/daaning/GT2roguelike/wiki/gameplay)
-
+* Gameplay video: [YouTube] (https://youtu.be/g7ZBKINKmYg)
 ## Story
 
 You play as an old phone that has just been trown out for a brand new jPhone which is way better looking, smarter and hasn't had it's battery programmed to die for no reason. So rather than turning to dust you enter the Electro Dungeon to break that jPhone into a Million pieces. 
