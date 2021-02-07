@@ -24,12 +24,12 @@ Juice that old battery back up and keep fighting those annoying pop ups and appl
 ### Dugeon Generator:
 To show off the random dungeon generation, the camera follows the generation of the path from start to finish. Hope you can figure out where to charge and how to conserve energy before it's too late and the enemies win again.
 
-<img src="https://github.com/daaning/GT2roguelike/blob/main/Assets/GIFs/startbildschrim.gif" width="590" />
+<img src="https://github.com/daaning/GT2roguelike/blob/main/Assets/GIFs/startbildschrim.gif" width="390" />
 
 ### Applicalicious NomNomNom
 These apps are getting hungerier by the day, run fast before applicalicious installs some updates and absolutely destroys your battery.
 
-<img src="https://github.com/daaning/GT2roguelike/blob/main/Assets/GIFs/akkufresser.gif" width="590" />
+<img src="https://github.com/daaning/GT2roguelike/blob/main/Assets/GIFs/akkufresser.gif" width="390" />
 
 ### jPhonius Maximus:
 Next to our "regular" enemies we have a gruesome boss battle against the great jPhonius Maximus who is your replacement. Aggravated as you are, you set out to, at the very least, break its screen or empty its battery before yours runs out.
