@@ -10,7 +10,7 @@
 You play as an old phone that has just been trown out for a brand new jPhone which is way better looking, smarter and hasn't had it's battery programmed to die for no reason. So rather than turning to dust you enter the Electro Dungeon to break that jPhone into a Million pieces. 
 
 ## Play 
-- to play Electro Dungeon on Windows, get it from our [releases page](https://github.com/daaning/GT2roguelike/releases)
+- to play Electro Dungeon on Windows, get it from our [releases page](https://github.com/daaning/GT2unrealElectroDungeon/releases)
 - use WSAD or arrow keys to walk around in the dungeon 
 - point and shoot at enemies with your right mouse button
 - charge by going over outlets
