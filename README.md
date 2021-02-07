@@ -1,6 +1,6 @@
 # Electro Dungeon - Roguelike Dungeon Crawler
 
-![](https://github.com/daaning/GT2unrealElectroDungeon/images/title.png )
+![title screen](https://github.com/daaning/GT2unrealElectroDungeon/images/title.PNG )
 
 
 ## WIKI
