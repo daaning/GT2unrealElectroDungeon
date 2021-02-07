@@ -1,7 +1,6 @@
 # Electro Dungeon - Roguelike Dungeon Crawler
 
-![title screen](https://github.com/daaning/GT2unrealElectroDungeon/images/title.PNG )
-
+<img src="https://github.com/daaning/GT2unrealElectroDungeon/images/title.PNG" width="390" />
 
 ## WIKI
 
@@ -21,7 +20,8 @@ You play as an old phone that has just been trown out for a brand new jPhone whi
 ### Charge That Phone!
 Juice that old battery back up and keep fighting those annoying pop ups and applications, defying death for just a little bit longer.
 
-![phone charging](https://github.com/daaning/GT2unrealElectroDungeon/images/charge.gif )
+//![phone charging](https://github.com/daaning/GT2unrealElectroDungeon/images/charge.gif )
+<img src="https://github.com/daaning/GT2unrealElectroDungeon/images/charge.gif" width="390" />
 
 ### Dugeon Generator:
 To show off the random dungeon generation, the camera follows the generation of the path from start to finish. Hope you can figure out where to charge and how to conserve energy before it's too late and the enemies win again.
@@ -37,7 +37,8 @@ These apps are getting hungerier by the day, run fast before applicalicious inst
 ### jPhonius Maximus:
 Next to our "regular" enemies we have a gruesome boss battle against the great jPhonius Maximus who is your replacement. Aggravated as you are, you set out to, at the very least, break its screen or empty its battery before yours runs out.
 
-![bossbattle](https://github.com/daaning/GT2unrealElectroDungeon/images/bossbattle.gif)
+//![bossbattle](https://github.com/daaning/GT2unrealElectroDungeon/images/bossbattle.gif)
+<img src="https://github.com/daaning/GT2unrealElectroDungeon/images/bossbattle.gif" width="390" />
 
 ## About Us
 
