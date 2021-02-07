@@ -1,6 +1,6 @@
 # Electro Dungeon - Roguelike Dungeon Crawler
 
-![alt text](https://github.com/daaning/GT2unrealElectroDungeon/images/title.PNG)
+![alt text](images/title.PNG)
 ## WIKI
 
 * Game Idea and docs: [WIKI](https://github.com/daaning/GT2roguelike/wiki/Spielidee:-Electro-Dungeon)
