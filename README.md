@@ -19,7 +19,7 @@ You play as an old phone that has just been trown out for a brand new jPhone whi
 ### Charge That Phone!
 Juice that old battery back up and keep fighting those annoying pop ups and applications, defying death for just a little bit longer.
 
-//![phone charging](https://github.com/daaning/GT2unrealElectroDungeon/images/charge.gif )
+![phone charging](images/charge.gif)
 <img src="https://github.com/daaning/GT2unrealElectroDungeon/images/charge.gif" width="390" />
 
 ### Dugeon Generator:
