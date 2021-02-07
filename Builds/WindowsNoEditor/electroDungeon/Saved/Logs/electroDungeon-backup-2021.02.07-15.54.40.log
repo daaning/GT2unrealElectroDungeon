@@ -1,0 +1,1364 @@
+﻿Log file open, 02/07/21 16:52:22
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: electroDungeon
+LogInit: Display: Project file not found: ../../../electroDungeon/electroDungeon.uproject
+LogInit: Display: 	Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogPakFile: Display: Found Pak file ../../../electroDungeon/Content/Paks/electroDungeon-WindowsNoEditor.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../electroDungeon/Content/Paks/electroDungeon-WindowsNoEditor.pak.
+LogPakFile: PakFile PrimaryIndexSize=21954
+LogPakFile: PakFile PathHashIndexSize=44685
+LogPakFile: PakFile FullDirectoryIndexSize=59632
+LogPakFile: OnPakFileMounted2Time == 0.000021
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.358471
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogLuminAPIImpl: Warning: MLSDK not found.  This likely means the MLSDK environment variable is not set.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-14830424
+LogInit: Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Dec  1 2020 15:27:28
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Users/mcflu/git/GT2unrealElectroDungeon/Builds/WindowsNoEditor/Engine/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2021.02.07-15.52.22:918][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.02.07-15.52.22:918][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.07-15.52.22:918][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.Mobile.ReflectionCaptureCompression:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.02.07-15.52.22:919][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.02.07-15.52.22:920][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.MobileHDR:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlightsShadow:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.Mobile.AmbientOcclusion:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.GPUSkin.UnlimitedBoneInfluences:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.GPUSkin.UnlimitedBoneInfluencesThreshold:8]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[r.Mobile.PlanarReflectionMode:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.07-15.52.22:921][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.07-15.52.22:921][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.02.07-15.52.22:922][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.07-15.52.22:930][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:930][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.07-15.52.22:930][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.07-15.52.22:930][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:930][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.07-15.52.22:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.02.07-15.52.22:932][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:932][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.02.07-15.52.22:933][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2021.02.07-15.52.22:933][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2021.02.07-15.52.22:933][  0]LogHAL: Display: Platform has ~ 8 GB [8504184832 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.07-15.52.22:933][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2021.02.07-15.52.22:933][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.07-15.52.22:933][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.07-15.52.22:933][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.07-15.52.22:934][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.07-15.52.22:935][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../electroDungeon/Saved/Config/WindowsNoEditor/Engine.ini]
+[2021.02.07-15.52.22:936][  0]LogInit: Computer: LAPTOP-U3QA5Q91
+[2021.02.07-15.52.22:936][  0]LogInit: User: mcflu
+[2021.02.07-15.52.22:936][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.02.07-15.52.22:936][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.07-15.52.22:936][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.02.07-15.52.22:936][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2021.02.07-15.52.22:936][  0]LogMemory: Process Physical Memory: 70.37 MB used, 70.37 MB peak
+[2021.02.07-15.52.22:936][  0]LogMemory: Process Virtual Memory: 74.58 MB used, 74.58 MB peak
+[2021.02.07-15.52.22:936][  0]LogMemory: Physical Memory: 5773.53 MB used,  2336.70 MB free, 8110.22 MB total
+[2021.02.07-15.52.22:936][  0]LogMemory: Virtual Memory: 134214392.00 MB used,  3337.24 MB free, 134217728.00 MB total
+[2021.02.07-15.52.22:945][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.07-15.52.23:069][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.07-15.52.23:070][  0]LogInit: Using OS detected language (de-DE).
+[2021.02.07-15.52.23:070][  0]LogInit: Using OS detected locale (de-DE).
+[2021.02.07-15.52.23:072][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2021.02.07-15.52.23:073][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2021.02.07-15.52.23:124][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.02.07-15.52.23:175][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.07-15.52.23:176][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.07-15.52.23:228][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.07-15.52.23:228][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.07-15.52.23:228][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.07-15.52.23:228][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.07-15.52.23:283][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2021.02.07-15.52.23:283][  0]LogD3D11RHI:       128/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2021.02.07-15.52.23:287][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.07-15.52.23:287][  0]LogD3D11RHI:       0/0/4055 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.07-15.52.23:287][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.07-15.52.23:304][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.07-15.52.23:304][  0]LogD3D11RHI:     GPU DeviceId: 0x5917 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.07-15.52.23:304][  0]LogWindows: EnumDisplayDevices:
+[2021.02.07-15.52.23:305][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2021.02.07-15.52.23:305][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2021.02.07-15.52.23:305][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2021.02.07-15.52.23:306][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2021.02.07-15.52.23:306][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics 620
+[2021.02.07-15.52.23:306][  0]LogD3D11RHI:   Driver Version: 23.20.16.4973 (internal:23.20.16.4973, unified:23.20.16.4973)
+[2021.02.07-15.52.23:306][  0]LogD3D11RHI:      Driver Date: 2-28-2018
+[2021.02.07-15.52.23:306][  0]LogRHI: Texture pool is 1508 MB (70% of 2155 MB)
+[2021.02.07-15.52.23:332][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.02.07-15.52.23:332][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.07-15.52.23:332][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.07-15.52.23:356][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2021.02.07-15.52.23:356][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.02.07-15.52.23:363][  0]LogShaderLibrary: Display: Using ../../../electroDungeon/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode for material shader code. Total 2078 unique shaders.
+[2021.02.07-15.52.23:363][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2021.02.07-15.52.23:364][  0]LogTemp: Warning: Clearing the OS Cache
+[2021.02.07-15.52.23:372][  0]LogPakFile: New pak file ../../../electroDungeon/Content/Paks/electroDungeon-WindowsNoEditor.pak added to pak precacher.
+[2021.02.07-15.52.23:410][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.07-15.52.23:410][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.07-15.52.23:499][  0]LogShaderLibrary: Display: Using ../../../electroDungeon/Content/ShaderArchive-electroDungeon-PCD3D_SM5.ushaderbytecode for material shader code. Total 1349 unique shaders.
+[2021.02.07-15.52.23:499][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library electroDungeon
+[2021.02.07-15.52.23:499][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2021.02.07-15.52.23:499][  0]LogRHI: Display: Failed to open default shader pipeline cache for electroDungeon using shader platform 0.
+[2021.02.07-15.52.23:499][  0]LogInit: Using OS detected language (de-DE).
+[2021.02.07-15.52.23:500][  0]LogInit: Using OS detected locale (de-DE).
+[2021.02.07-15.52.23:500][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2021.02.07-15.52.23:500][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2021.02.07-15.52.23:501][  0]LogTextLocalizationManager: Compacting localization data took   0.74ms
+[2021.02.07-15.52.23:507][  0]LogAssetRegistry: FAssetRegistry took 0.0052 seconds to start up
+[2021.02.07-15.52.23:749][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2021.02.07-15.52.23:749][  0]LogPackageLocalizationCache: Processed 21 localized package path(s) for 1 prioritized culture(s) in 0.000146 seconds
+[2021.02.07-15.52.23:761][  0]LogSerialization: Display: AllowBulkDataInIoStore: 'true'
+[2021.02.07-15.52.23:762][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2021.02.07-15.52.23:763][  0]LogInit: Active device profile: [000001BA8BD03D00][000001BA88BA0010 49] WindowsNoEditor
+[2021.02.07-15.52.23:763][  0]LogInit: Profiles: [000001BA8BD03C40][000001BA88BA13C0 49] Windows, [000001BA8BD03D00][000001BA88BA0010 49] WindowsNoEditor, 
+[2021.02.07-15.52.23:794][  0]LogNetVersion: electroDungeon 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1316148908)
+[2021.02.07-15.52.23:911][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.07-15.52.23:911][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.07-15.52.23:913][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.02.07-15.52.23:990][  0]LogMoviePlayer: Initializing movie player
+[2021.02.07-15.52.23:998][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.07-15.52.23:998][  0]LogOcInput: OculusInput pre-init called
+[2021.02.07-15.52.24:004][  0]LogUObjectArray: 15238 objects as part of root set at end of initial load.
+[2021.02.07-15.52.24:004][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2021.02.07-15.52.24:004][  0]LogUObjectAllocator: 3104536 out of 0 bytes used by permanent object pool.
+[2021.02.07-15.52.24:004][  0]LogUObjectArray: CloseDisregardForGC: 15238/15238 objects in disregard for GC pool
+[2021.02.07-15.52.24:005][  0]LogEngine: Initializing Engine...
+[2021.02.07-15.52.24:006][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.07-15.52.24:008][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.02.07-15.52.24:094][  0]LogPakFile: Precache HighWater 16MB
+
+[2021.02.07-15.52.24:094][  0]LogPakFile: Precache HighWater 32MB
+
+[2021.02.07-15.52.24:094][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.07-15.52.24:094][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.02.07-15.52.24:094][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.02.07-15.52.24:094][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.02.07-15.52.24:094][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.07-15.52.24:094][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.07-15.52.24:094][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.07-15.52.24:094][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.07-15.52.24:094][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.07-15.52.24:094][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.07-15.52.24:094][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.07-15.52.24:094][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.07-15.52.24:095][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.07-15.52.24:095][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.07-15.52.24:116][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.07-15.52.24:136][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.07-15.52.24:136][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.07-15.52.24:195][  0]LogAudioMixer: Display: Using Audio Device Lautsprecher (Realtek High Definition Audio(SST))
+[2021.02.07-15.52.24:198][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.07-15.52.24:199][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.07-15.52.24:199][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.07-15.52.24:201][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.07-15.52.24:201][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.07-15.52.24:201][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.07-15.52.24:202][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.07-15.52.24:202][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.07-15.52.24:202][  0]LogInit: FAudioDevice initialized.
+[2021.02.07-15.52.24:203][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.07-15.52.24:203][  0]LogInit: Texture streaming: Enabled
+[2021.02.07-15.52.24:208][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.02.07-15.52.24:211][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.07-15.52.24:213][  0]LogInit: Display: Game Engine Initialized.
+[2021.02.07-15.52.24:214][  0]LogInit: Display: Starting Game.
+[2021.02.07-15.52.24:214][  0]LogNet: Browse: /Game/ElectroDungeon/UI/MainMenu?Name=Player
+[2021.02.07-15.52.24:214][  0]LogLoad: LoadMap: /Game/ElectroDungeon/UI/MainMenu?Name=Player
+[2021.02.07-15.52.24:214][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.02.07-15.52.24:216][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.07-15.52.24:216][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.07-15.52.24:221][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.07-15.52.24:223][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2021.02.07-15.52.24:234][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2021.02.07-15.52.24:236][  0]LogAIModule: Creating AISystem for world MainMenu
+[2021.02.07-15.52.24:237][  0]LogLoad: Game class is 'CharacterMovementBase_C'
+[2021.02.07-15.52.24:239][  0]LogWorld: Bringing World /Game/ElectroDungeon/UI/MainMenu.MainMenu up for play (max tick rate 0) at 2021.02.07-16.52.24
+[2021.02.07-15.52.24:240][  0]LogWorld: Bringing up level for play took: 0.001101
+[2021.02.07-15.52.24:241][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.02.07-15.52.24:243][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.07-15.52.24:244][  0]LogLoad: Took 0.029311 seconds to LoadMap(/Game/ElectroDungeon/UI/MainMenu)
+[2021.02.07-15.52.24:245][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../electroDungeon/Content/ElectroDungeon/UI/RadioDaysNF.ufont' (27K)
+[2021.02.07-15.52.24:245][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../electroDungeon/Content/ElectroDungeon/UI/ELECTRICBOOTS.ufont' (40K)
+[2021.02.07-15.52.24:290][  0]LogRenderer: Reallocating scene render targets to support 1536x864 Format 10 NumSamples 1 (Frame:1).
+[2021.02.07-15.52.24:291][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2021.02.07-15.52.24:291][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=210792, PathHashSize=16, EntriesSize=21840, TotalSize=232648
+[2021.02.07-15.52.24:291][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2021.02.07-15.52.24:291][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2021.02.07-15.52.24:291][  0]LogLoad: (Engine Initialization) Total time: 2.15 seconds
+[2021.02.07-15.52.24:291][  0]LogInit: First time updating LLM stats...
+[2021.02.07-15.52.24:352][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.07-15.52.48:456][485]LogNet: Browse: /Game/ElectroDungeon/Maps/Move
+[2021.02.07-15.52.48:456][485]LogLoad: LoadMap: /Game/ElectroDungeon/Maps/Move
+[2021.02.07-15.52.48:456][485]LogWorld: BeginTearingDown for /Game/ElectroDungeon/UI/MainMenu
+[2021.02.07-15.52.48:456][485]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.02.07-15.52.48:456][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.07-15.52.48:483][485]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.07-15.52.48:507][485]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.02.07-15.52.48:597][485]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2021.02.07-15.52.48:621][485]LogAudio: Display: Audio Device (ID: 1) registered with world 'Move'.
+[2021.02.07-15.52.48:622][485]LogAIModule: Creating AISystem for world Move
+[2021.02.07-15.52.48:623][485]LogLoad: Game class is 'CharacterMovementBase_C'
+[2021.02.07-15.52.48:624][485]LogWorld: Bringing World /Game/ElectroDungeon/Maps/Move.Move up for play (max tick rate 0) at 2021.02.07-16.52.48
+[2021.02.07-15.52.48:625][485]LogWorld: Bringing up level for play took: 0.000383
+[2021.02.07-15.52.48:625][485]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.02.07-15.52.48:952][485]LogLoad: Took 0.495723 seconds to LoadMap(/Game/ElectroDungeon/Maps/Move)
+[2021.02.07-15.52.48:957][485]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.48:957][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.07-15.52.48:964][486]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.50:994][487]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:090][488]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:100][489]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:148][490]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:203][491]LogBlueprintUserMessages: [Move_C_1] 127.206856
+[2021.02.07-15.52.51:206][491]LogSlate: Took 0.000495 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.07-15.52.51:208][491]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:262][492]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:319][493]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:366][494]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:418][495]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:470][496]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:531][497]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:578][498]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:638][499]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:690][500]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:844][501]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:892][502]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.51:953][503]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:004][504]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:055][505]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:105][506]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:157][507]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:211][508]LogBlueprintUserMessages: [Move_C_1] 127.206856
+[2021.02.07-15.52.52:212][508]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:270][509]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:325][510]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:375][511]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:426][512]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:480][513]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:530][514]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:579][515]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:644][516]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:695][517]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:746][518]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:799][519]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:850][520]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:901][521]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.52:964][522]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:016][523]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:066][524]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:118][525]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:168][526]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:228][527]LogBlueprintUserMessages: [Move_C_1] 193.601257
+[2021.02.07-15.52.53:230][527]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:280][528]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:333][529]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:383][530]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:434][531]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:487][532]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:539][533]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:599][534]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:650][535]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:703][536]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:755][537]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:806][538]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:858][539]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:909][540]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.53:972][541]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:023][542]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:074][543]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:127][544]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:178][545]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:229][546]LogBlueprintUserMessages: [Move_C_1] 193.601257
+[2021.02.07-15.52.54:229][546]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:292][547]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:344][548]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:395][549]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:446][550]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:497][551]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:549][552]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:609][553]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:662][554]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:714][555]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:763][556]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:815][557]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:867][558]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:918][559]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.54:981][560]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:032][561]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:083][562]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:134][563]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:185][564]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:236][565]LogBlueprintUserMessages: [Move_C_1] 193.601257
+[2021.02.07-15.52.55:237][565]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:300][566]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:351][567]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:402][568]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:455][569]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:507][570]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:562][571]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:614][572]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:679][573]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:733][574]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:785][575]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:840][576]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:896][577]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.55:950][578]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:015][579]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:069][580]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:122][581]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:178][582]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:231][583]LogBlueprintUserMessages: [Move_C_1] 193.601257
+[2021.02.07-15.52.56:232][583]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:294][584]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:347][585]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:403][586]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:457][587]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:513][588]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:569][589]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:622][590]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:687][591]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:740][592]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:796][593]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:848][594]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:905][595]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.56:968][596]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:027][597]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:082][598]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:142][599]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:196][600]LogBlueprintUserMessages: [Move_C_1] 193.601257
+[2021.02.07-15.52.57:197][600]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:255][601]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:320][602]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:376][603]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:433][604]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:495][605]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:552][606]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:623][607]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:687][608]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:741][609]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:806][610]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:870][611]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.57:935][612]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:006][613]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:072][614]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:132][615]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:195][616]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:255][617]LogBlueprintUserMessages: [Move_C_1] 193.601257
+[2021.02.07-15.52.58:256][617]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:330][618]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:390][619]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:447][620]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:516][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:580][622]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:649][623]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:704][624]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:772][625]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:834][626]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:908][627]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.58:975][628]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:032][629]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:095][630]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:176][631]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:228][632]LogBlueprintUserMessages: [Move_C_1] 193.601257
+[2021.02.07-15.52.59:230][632]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:299][633]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:355][634]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:418][635]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:484][636]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:555][637]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:616][638]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:685][639]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:743][640]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:804][641]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:872][642]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:927][643]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.52.59:994][644]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:060][645]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:120][646]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:185][647]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:247][648]LogBlueprintUserMessages: [Move_C_1] 193.601257
+[2021.02.07-15.53.00:248][648]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:310][649]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:374][650]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:429][651]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:491][652]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:552][653]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:625][654]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:683][655]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:748][656]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:802][657]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:860][658]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:922][659]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.00:984][660]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:041][661]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:101][662]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:167][663]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:223][664]LogBlueprintUserMessages: [Move_C_1] 267.211609
+[2021.02.07-15.53.01:224][664]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:298][665]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:352][666]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:414][667]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:473][668]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:535][669]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:594][670]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:666][671]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:719][672]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:783][673]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:843][674]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:904][675]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.01:977][676]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:027][677]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:092][678]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:149][679]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:207][680]LogBlueprintUserMessages: [Move_C_1] 356.896057
+[2021.02.07-15.53.02:208][680]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:266][681]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:327][682]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:390][683]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:452][684]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:511][685]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:571][686]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:638][687]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:690][688]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:755][689]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:815][690]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:872][691]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:932][692]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.02:997][693]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:056][694]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:116][695]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:178][696]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:236][697]LogBlueprintUserMessages: [Move_C_1] 459.55014
+[2021.02.07-15.53.03:237][697]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:308][698]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:368][699]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:424][700]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:486][701]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:554][702]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:609][703]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:671][704]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:733][705]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:794][706]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:851][707]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:909][708]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.03:979][709]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:041][710]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:098][711]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:158][712]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:217][713]LogBlueprintUserMessages: [Move_C_1] 557.612183
+[2021.02.07-15.53.04:219][713]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:276][714]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:353][715]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:406][716]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:470][717]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:533][718]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:593][719]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:659][720]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:716][721]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:777][722]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:838][723]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:898][724]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.04:962][725]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:018][726]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:077][727]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:145][728]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:200][729]LogBlueprintUserMessages: [Move_C_1] 643.131042
+[2021.02.07-15.53.05:201][729]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:266][730]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:334][731]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:395][732]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:449][733]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:512][734]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:577][735]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:640][736]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:696][737]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:755][738]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:818][739]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:874][740]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.05:933][741]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:001][742]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:056][743]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:116][744]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:178][745]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:234][746]LogBlueprintUserMessages: [Move_C_1] 644.204224
+[2021.02.07-15.53.06:235][746]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:294][747]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:370][748]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:425][749]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:488][750]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:547][751]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:608][752]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:675][753]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:730][754]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:789][755]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:852][756]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:913][757]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.06:978][758]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:039][759]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:094][760]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:157][761]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:213][762]LogBlueprintUserMessages: [Move_C_1] 644.204224
+[2021.02.07-15.53.07:214][762]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:277][763]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:343][764]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:394][765]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:455][766]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:513][767]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:574][768]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:633][769]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:701][770]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:755][771]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:817][772]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:876][773]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.07:937][774]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:009][775]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:065][776]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:118][777]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:180][778]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:240][779]LogBlueprintUserMessages: [Move_C_1] 644.204224
+[2021.02.07-15.53.08:241][779]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:299][780]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:361][781]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:420][782]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:478][783]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:540][784]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:599][785]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:657][786]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:724][787]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:784][788]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:846][789]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:909][790]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.08:966][791]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:033][792]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:094][793]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:158][794]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:213][795]LogBlueprintUserMessages: [Move_C_1] 644.204224
+[2021.02.07-15.53.09:214][795]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:277][796]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:341][797]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:394][798]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:456][799]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:516][800]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:587][801]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:641][802]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:711][803]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:769][804]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:831][805]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:896][806]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.09:955][807]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:024][808]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:072][809]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:135][810]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:196][811]LogBlueprintUserMessages: [Move_C_1] 723.001221
+[2021.02.07-15.53.10:198][811]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:257][812]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:318][813]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:386][814]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:442][815]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:502][816]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:564][817]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:622][818]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:689][819]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:755][820]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:807][821]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:870][822]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:931][823]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.10:990][824]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:054][825]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:120][826]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:174][827]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:235][828]LogBlueprintUserMessages: [Move_C_1] 772.243042
+[2021.02.07-15.53.11:236][828]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:297][829]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:366][830]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:419][831]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:486][832]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:553][833]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:608][834]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:668][835]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:734][836]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:791][837]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:856][838]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:917][839]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.11:980][840]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:050][841]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:111][842]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:165][843]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:232][844]LogBlueprintUserMessages: [Move_C_1] 871.488281
+[2021.02.07-15.53.12:233][844]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:285][845]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:345][846]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:411][847]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:467][848]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:532][849]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:590][850]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:652][851]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:720][852]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:782][853]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:836][854]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:900][855]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.12:959][856]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:027][857]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:082][858]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:149][859]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:199][860]LogBlueprintUserMessages: [Move_C_1] 927.825806
+[2021.02.07-15.53.13:200][860]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:254][861]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:316][862]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:384][863]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:439][864]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:500][865]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:561][866]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:618][867]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:676][868]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:748][869]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:809][870]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:867][871]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:926][872]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.13:987][873]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:052][874]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:106][875]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:167][876]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:228][877]LogBlueprintUserMessages: [Move_C_1] 1021.355957
+[2021.02.07-15.53.14:230][877]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:295][878]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:356][879]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:418][880]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:479][881]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:541][882]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:602][883]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:660][884]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:725][885]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:779][886]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:846][887]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:906][888]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.14:964][889]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:024][890]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:098][891]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:164][892]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:218][893]LogBlueprintUserMessages: [Move_C_1] 1072.156494
+[2021.02.07-15.53.15:220][893]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:279][894]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:342][895]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:405][896]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:467][897]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:527][898]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:590][899]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:648][900]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:717][901]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:766][902]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:832][903]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:895][904]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.15:951][905]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:011][906]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:077][907]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:138][908]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:198][909]LogBlueprintUserMessages: [Move_C_1] 1072.156494
+[2021.02.07-15.53.16:199][909]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:258][910]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:318][911]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:386][912]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:449][913]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:503][914]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:564][915]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:624][916]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:682][917]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:755][918]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:813][919]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:874][920]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:935][921]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.16:994][922]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:062][923]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:122][924]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:184][925]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:243][926]LogBlueprintUserMessages: [Move_C_1] 1072.156494
+[2021.02.07-15.53.17:246][926]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:303][927]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:363][928]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:430][929]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:485][930]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:552][931]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:609][932]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:668][933]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:735][934]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:789][935]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:847][936]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:911][937]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.17:974][938]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:035][939]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:101][940]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:158][941]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:217][942]LogBlueprintUserMessages: [Move_C_1] 1139.363892
+[2021.02.07-15.53.18:218][942]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:280][943]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:345][944]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:409][945]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:460][946]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:520][947]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:579][948]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:639][949]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:706][950]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:769][951]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:824][952]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:884][953]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.18:947][954]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:009][955]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:075][956]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:127][957]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:190][958]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:247][959]LogBlueprintUserMessages: [Move_C_1] 1242.436646
+[2021.02.07-15.53.19:249][959]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:308][960]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:365][961]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:426][962]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:488][963]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:555][964]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:611][965]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:670][966]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:736][967]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:789][968]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:851][969]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:913][970]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.19:977][971]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:034][972]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:097][973]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:156][974]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:217][975]LogBlueprintUserMessages: [Move_C_1] 1333.868164
+[2021.02.07-15.53.20:218][975]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:278][976]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:339][977]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:405][978]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:456][979]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:517][980]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:577][981]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:634][982]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:698][983]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:769][984]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:827][985]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:888][986]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.20:949][987]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:008][988]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:075][989]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:126][990]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:189][991]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:246][992]LogBlueprintUserMessages: [Move_C_1] 1339.432129
+[2021.02.07-15.53.21:247][992]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:306][993]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:364][994]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:431][995]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:487][996]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:553][997]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:609][998]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:669][999]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:729][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:797][  1]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:855][  2]LogBlueprintUserMessages: [Move_C_1] Check for players distance
+[2021.02.07-15.53.21:858][  2]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:915][  3]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.21:979][  4]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:038][  5]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:103][  6]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:156][  7]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:215][  8]LogBlueprintUserMessages: [Move_C_1] 1339.432129
+[2021.02.07-15.53.22:217][  8]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:278][  9]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:342][ 10]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:407][ 11]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:467][ 12]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:520][ 13]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:583][ 14]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:645][ 15]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:704][ 16]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:773][ 17]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:826][ 18]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:888][ 19]LogBlueprintUserMessages: [Move_C_1] Check for players distance
+[2021.02.07-15.53.22:890][ 19]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.22:949][ 20]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:011][ 21]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:081][ 22]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:146][ 23]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:199][ 24]LogBlueprintUserMessages: [Move_C_1] 1437.825562
+[2021.02.07-15.53.23:200][ 24]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:262][ 25]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:320][ 26]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:379][ 27]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:451][ 28]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:502][ 29]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:568][ 30]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:626][ 31]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:686][ 32]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:754][ 33]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:808][ 34]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.23:868][ 35]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ElectroDungeon/UI/InGameUI.InGameUI_C:IsBossValid'!
+[2021.02.07-15.53.24:236][ 41]LogBlueprintUserMessages: [Move_C_1] 1540.892944
+[2021.02.07-15.53.25:215][ 57]LogBlueprintUserMessages: [Move_C_1] 1634.116089
+[2021.02.07-15.53.25:511][ 61]LogTaskGraph: Warning: Task graph took  47.66ms for RT to recieve broadcast.
+[2021.02.07-15.53.25:511][ 61]LogTaskGraph: Warning: Task graph took  47.88ms for RT to recieve broadcast and do processing.
+[2021.02.07-15.53.25:511][ 61]LogTaskGraph: Warning: Task graph took  47.71ms to wait for named thread broadcast.
+[2021.02.07-15.53.25:511][ 61]LogTaskGraph: Warning: Task graph took  48.02ms to broadcast.
+[2021.02.07-15.53.26:248][ 74]LogBlueprintUserMessages: [Move_C_1] 1657.136963
+[2021.02.07-15.53.27:224][ 90]LogBlueprintUserMessages: [Move_C_1] 1749.688232
+[2021.02.07-15.53.28:247][107]LogBlueprintUserMessages: [Move_C_1] 1851.422607
+[2021.02.07-15.53.29:230][123]LogBlueprintUserMessages: [Move_C_1] 1950.530396
+[2021.02.07-15.53.30:204][139]LogBlueprintUserMessages: [Move_C_1] 2047.900024
+[2021.02.07-15.53.31:245][156]LogBlueprintUserMessages: [Move_C_1] 2140.133057
+[2021.02.07-15.53.32:216][172]LogBlueprintUserMessages: [Move_C_1] 2234.41748
+[2021.02.07-15.53.33:199][188]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.34:234][205]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.35:207][221]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.36:228][238]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.37:206][254]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.38:236][271]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.39:206][287]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.40:238][304]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.41:214][320]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.42:251][337]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.43:228][353]LogBlueprintUserMessages: [Move_C_1] 2247.398926
+[2021.02.07-15.53.44:210][369]LogBlueprintUserMessages: [Move_C_1] 2308.419189
+[2021.02.07-15.53.45:248][386]LogBlueprintUserMessages: [Move_C_1] 2332.677002
+[2021.02.07-15.53.46:231][402]LogBlueprintUserMessages: [Move_C_1] 2430.452148
+[2021.02.07-15.53.47:214][418]LogBlueprintUserMessages: [Move_C_1] 2529.210693
+[2021.02.07-15.53.48:260][435]LogBlueprintUserMessages: [Move_C_1] 2633.436035
+[2021.02.07-15.53.49:233][451]LogBlueprintUserMessages: [Move_C_1] 2731.301514
+[2021.02.07-15.53.50:205][467]LogBlueprintUserMessages: [Move_C_1] 2800.341553
+[2021.02.07-15.53.51:264][484]LogBlueprintUserMessages: [Move_C_1] 2800.341553
+[2021.02.07-15.53.52:245][500]LogBlueprintUserMessages: [Move_C_1] 2800.341553
+[2021.02.07-15.53.53:212][516]LogBlueprintUserMessages: [Move_C_1] 2800.341553
+[2021.02.07-15.53.54:250][533]LogBlueprintUserMessages: [Move_C_1] 2878.955566
+[2021.02.07-15.53.55:213][549]LogBlueprintUserMessages: [Move_C_1] 2967.994385
+[2021.02.07-15.53.56:253][566]LogBlueprintUserMessages: [Move_C_1] 3034.215332
+[2021.02.07-15.53.57:206][582]LogBlueprintUserMessages: [Move_C_1] 3080.197021
+[2021.02.07-15.53.58:244][599]LogBlueprintUserMessages: [Move_C_1] 3139.429688
+[2021.02.07-15.53.59:219][615]LogBlueprintUserMessages: [Move_C_1] 3195.338379
+[2021.02.07-15.54.00:198][631]LogBlueprintUserMessages: [Move_C_1] 3292.996094
+[2021.02.07-15.54.01:235][648]LogBlueprintUserMessages: [Move_C_1] 3396.997803
+[2021.02.07-15.54.02:200][664]LogBlueprintUserMessages: [Move_C_1] 3423.440186
+[2021.02.07-15.54.03:233][681]LogBlueprintUserMessages: [Move_C_1] 3516.911377
+[2021.02.07-15.54.04:209][697]LogBlueprintUserMessages: [Move_C_1] 3611.212891
+[2021.02.07-15.54.05:237][714]LogBlueprintUserMessages: [Move_C_1] 3713.985352
+[2021.02.07-15.54.06:220][730]LogBlueprintUserMessages: [Move_C_1] 3787.549561
+[2021.02.07-15.54.07:212][746]LogBlueprintUserMessages: [Move_C_1] 3849.19873
+[2021.02.07-15.54.08:211][762]LogBlueprintUserMessages: [Move_C_1] 3857.624756
+[2021.02.07-15.54.09:230][778]LogBlueprintUserMessages: [Move_C_1] 3949.98999
+[2021.02.07-15.54.10:221][794]LogBlueprintUserMessages: [Move_C_1] 4000.399414
+[2021.02.07-15.54.11:240][811]LogBlueprintUserMessages: [Move_C_1] 4100.354004
+[2021.02.07-15.54.12:240][828]LogBlueprintUserMessages: [Move_C_1] 4200.48584
+[2021.02.07-15.54.13:206][844]LogBlueprintUserMessages: [Move_C_1] 4290.663574
+[2021.02.07-15.54.14:214][861]LogBlueprintUserMessages: [Move_C_1] 4366.371094
+[2021.02.07-15.54.15:231][878]LogBlueprintUserMessages: [Move_C_1] 4467.759277
+[2021.02.07-15.54.16:239][895]LogBlueprintUserMessages: [Move_C_1] 4557.095215
+[2021.02.07-15.54.17:231][912]LogBlueprintUserMessages: [Move_C_1] 4599.833496
+[2021.02.07-15.54.18:207][929]LogBlueprintUserMessages: [Move_C_1] 4696.946289
+[2021.02.07-15.54.19:244][947]LogBlueprintUserMessages: [Move_C_1] 4799.507324
+[2021.02.07-15.54.20:222][964]LogBlueprintUserMessages: [Move_C_1] 4894.552246
+[2021.02.07-15.54.21:220][982]LogBlueprintUserMessages: [Move_C_1] 4936.210449
+[2021.02.07-15.54.22:216][  0]LogBlueprintUserMessages: [Move_C_1] 4991.995605
+[2021.02.07-15.54.23:219][ 18]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.24:212][ 36]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.25:248][ 54]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.26:242][ 71]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.26:617][ 77]LogTaskGraph: Warning: Task graph took  36.72ms for RT to recieve broadcast.
+[2021.02.07-15.54.26:617][ 77]LogTaskGraph: Warning: Task graph took  36.89ms for RT to recieve broadcast and do processing.
+[2021.02.07-15.54.26:617][ 77]LogTaskGraph: Warning: Task graph took  36.59ms to wait for named thread broadcast.
+[2021.02.07-15.54.26:617][ 77]LogTaskGraph: Warning: Task graph took  37.04ms to broadcast.
+[2021.02.07-15.54.27:213][ 88]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.28:210][108]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.29:212][128]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.30:210][148]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.31:221][168]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.32:226][189]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.33:249][210]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.34:204][228]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.35:219][248]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.36:231][268]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.37:239][288]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.38:209][307]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.39:240][327]LogBlueprintUserMessages: [Move_C_1] 4997.896973
+[2021.02.07-15.54.40:209][346]LogBlueprintUserMessages: [Move_C_1] 4997.896973
